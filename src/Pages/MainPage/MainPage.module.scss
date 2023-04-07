@@ -1,0 +1,104 @@
+.main_page {
+    display: flex;
+    justify-content: space-between;
+}
+.timer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    .wrap {
+        background-color: #ededed;
+        padding: 16px;
+        border-radius: 12px;
+        color: #373745;
+        letter-spacing: 0.25px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+    }
+}
+.board {
+    display: flex;
+    .row {
+        .square {
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 190px;
+            height: 190px;
+            margin: 0 4px 4px 0;
+            border-radius: 12px;
+        }
+        .winner-o {
+            background-color: #f3bbd0;
+        }
+        .winner-x {
+            background-color: #cfede6;
+        }
+    }
+}
+.status {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    .msg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #373745;
+        color: #fff;
+        padding: 8px 69px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+        svg {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
+
+.myBtn {
+    display: block;
+    width: 100%;
+    padding: 8px 0 8px 0;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    background-color: #60c2aa;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0px 2px 6px rgba(44, 57, 121, 0.1);
+    padding: 0 40px;
+    font-weight: 500;
+    .active_link {
+        color: #fff !important;
+        background-color: #60c2aa;
+        border-radius: 200px;
+        font-weight: 400;
+    }
+    .links {
+        display: flex;
+        font-size: 16px;
+        a {
+            color: black;
+            text-decoration: none;
+            padding: 4px 12px;
+            align-items: center;
+            margin-right: 16px;
+        }
+    }
+}

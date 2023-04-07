@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+.app {
+    height: 100vh;
+    width: 100%;
+    .navbar {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        border-radius: 0px 0px 16px 16px;
+        box-shadow: 0px 2px 6px rgba(44, 57, 121, 0.1);
+        padding: 0 40px;
+        font-weight: 500;
+        .active_link {
+            color: #fff !important;
+            background-color: #60c2aa;
+            border-radius: 200px;
+            font-weight: 400;
+        }
+        .links {
+            display: flex;
+            font-size: 16px;
+            a {
+                color: black;
+                text-decoration: none;
+                padding: 4px 12px;
+                align-items: center;
+                margin-right: 16px;
+            }
+        }
+    }
+}
